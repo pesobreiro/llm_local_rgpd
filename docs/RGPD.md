@@ -279,35 +279,48 @@ Para tratamento de dados pessoais com LLMs locais:
 
 ## 7. AI Act Europeu (Regulamento IA)
 
-### 7.1 Aplicabilidade
+### 7.1 Enquadramento
 
-O **Regulamento (UE) 2024/1689** (AI Act) estabelece regras para sistemas de IA na UE.
+O **Regulamento (UE) 2024/1689** (AI Act) é o primeiro quadro jurídico mundial para regulamentação da inteligência artificial, oficialmente adotado em 13 de junho de 2024.
 
-**Classificação de risco:**
+**Calendário de Aplicação (Faseado):**
+
+| Data | Disposições Aplicáveis |
+|------|------------------------|
+| **1 agosto 2024** | Entrada em vigor do regulamento |
+| **2 fevereiro 2025** | Aplicação dos Capítulos I e II (definições, princípios gerais) |
+| **2 agosto 2025** | Obrigações para modelos GPAI; Estrutura de governação; Sanções |
+| **2 agosto 2026** | Aplicação das restantes matérias (exceto Art. 6º nº1) |
+| **2 agosto 2027** | Aplicação do Art. 6º nº1 (sistemas de IA de risco elevado) |
+
+**Classificação de Risco:**
 
 | Categoria | Definição | Exemplo | Requisitos |
 |-----------|-----------|---------|------------|
-| **Inaceitável** | Proibidos | Sistemas de pontuação social | Proibido |
-| **Alto Risco** | Setores críticos | IA médica, recrutamento | Conformidade rigorosa |
-| **Risco Limitado** | Transparência obrigatória | Chatbots | Informação ao utilizador |
-| **Mínimo Risco** | Voluntário | Recomendações | Boas práticas |
+| **Inaceitável** | Proibidos | Sistemas de pontuação social, manipulação subliminar | Proibido |
+| **Alto Risco** | Setores críticos | IA médica, recrutamento, justiça | Conformidade rigorosa (Art. 6º) |
+| **Risco Limitado** | Transparência obrigatória | Chatbots, IA generativa | Informação ao utilizador |
+| **Mínimo/Nulo** | Voluntário | Filtros spam, recomendações | Boas práticas |
 
 ### 7.2 LLMs Locais e o AI Act
 
 **Sistemas de Propósito Geral (GPAI):**
 
-Os LLMs do projeto qualificam-se como **GPAI** (General Purpose AI).
+Os LLMs deste projeto (Llama, Mistral, Qwen) qualificam-se como **GPAI** (General Purpose AI) - modelos treinados com grandes volumes de dados capazes de executar uma vasta gama de tarefas.
 
-**Obrigações:**
-- Transparência (indicar que se trata de IA)
-- Documentação técnica
-- Respeito por direitos de autor
-- Política de uso responsável
+**Obrigações para GPAI (a partir de 2 agosto 2025):**
+- **Transparência:** Indicar que conteúdos foram gerados por IA
+- **Documentação técnica:** Manter registos do sistema
+- **Respeito por direitos de autor:** Documentar dados de treino
+- **Política de uso responsável:** Informar sobre limitações
 
-**Não aplicáveis (sistemas locais pequenos):**
-- Avaliações de risco sistemáticas
-- Testes de conformidade por terceiros
-- Registo em base de dados da UE
+**GPAI com Risco Sistémico (não aplicável a este projeto):**
+Modelos com capacidade computacional superior a 10^25 FLOPs têm obrigações adicionais de gestão de riscos e cibersegurança. Os modelos open-source locais deste projeto estão abaixo deste limiar.
+
+**Isenções Relevantes:**
+- Sistemas de IA utilizados **exclusivamente para fins pessoais** (isenção)
+- Sistemas para **investigação e desenvolvimento científico** (isenção)
+- Modelos open-source **não monetizados** (obrigações reduzidas)
 
 ---
 
@@ -377,4 +390,5 @@ Este projeto inclui os seguintes templates:
 
 ---
 
-**Última atualização:** 2025-02-26
+**Última atualização:** 2025-02-26  
+**Referências verificadas:** AI Act datas conforme digital.gov.pt e Consilium.europa.eu
