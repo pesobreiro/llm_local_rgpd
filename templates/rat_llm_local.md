@@ -11,10 +11,10 @@
 | **Data de criação** | 2025-02-26 |
 | **Última atualização** | 2025-02-26 |
 | **Versão** | 1.0 |
-| **Responsável pelo tratamento** | [NOME DA ENTIDADE] |
-| **NIF** | [NIF] |
-| **Morada** | [MORADA] |
-| **Contacto DPO/EPD** | [EMAIL DO ENCARREGADO] |
+| **Responsável pelo tratamento** | [NOME DA ENTIDADE / ORGANIZAÇÃO] |
+| **NIF/NIPC** | [NÚMERO DE IDENTIFICAÇÃO FISCAL] |
+| **Morada sede** | [MORADA DA SEDE] |
+| **Contacto DPO/EPD** | [EMAIL DO ENCARREGADO DE PROTEÇÃO DE DADOS] |
 
 ---
 
@@ -192,10 +192,10 @@ journalctl --vacuum-time=1year
 
 | Medida | Descrição | Responsável |
 |--------|-----------|-------------|
-| Política de uso aceitável | Documento definindo uso permitido | [NOME] |
-| Formação de utilizadores | Sessões de sensibilização para RGPD | [NOME] |
-| Gestão de incidentes | Procedimento de resposta a incidentes | [NOME] |
-| Auditorias periódicas | Revisão trimestral de logs e acessos | [NOME] |
+| Política de uso aceitável | Documento definindo uso permitido | [RESPONSÁVEL DOCUMENTAÇÃO] |
+| Formação de utilizadores | Sessões de sensibilização para RGPD | [RESPONSÁVEL FORMAÇÃO] |
+| Gestão de incidentes | Procedimento de resposta a incidentes | [RESPONSÁVEL SEGURANÇA] |
+| Auditorias periódicas | Revisão trimestral de logs e acessos | [RESPONSÁVEL AUDITORIA] |
 
 ---
 
@@ -308,7 +308,7 @@ Input → LLM Local → Sugestão/Análise → Revisão Humana → Decisão Fina
 
 | Versão | Data | Alteração | Responsável |
 |--------|------|-----------|-------------|
-| 1.0 | 2025-02-26 | Criação inicial | [NOME] |
+| 1.0 | 2025-02-26 | Criação inicial | [RESPONSÁVEL] |
 | | | | |
 
 ---
@@ -336,6 +336,8 @@ Input → LLM Local → Sugestão/Análise → Revisão Humana → Decisão Fina
 
 ### 14. Assinaturas
 
+> ⚠️ **Nota:** Este template é fornecido como ponto de partida. Cada entidade deve adaptar e completar conforme a sua estrutura organizacional e requisitos específicos.
+
 **Responsável pelo Tratamento:**
 
 Nome: _______________________________
@@ -352,9 +354,22 @@ Data: _______________________________
 
 Nome: _______________________________
 
+Contacto: ___________________________
+
 Assinatura: _________________________
 
 Data: _______________________________
+
+---
+
+### 15. Suporte e Atualizações
+
+Para atualizações deste template ou esclarecimentos sobre a implementação técnica:
+
+- 📋 [GitHub Issues](https://github.com/pesobreiro/llm_local_rgpd/issues) - Questões técnicas
+- 💬 [GitHub Discussions](https://github.com/pesobreiro/llm_local_rgpd/discussions) - Partilha de experiências
+
+**Nota:** Questões jurídicas específicas devem ser dirigidas a um profissional qualificado em proteção de dados.
 
 ---
 

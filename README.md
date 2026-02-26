@@ -326,11 +326,17 @@ Este projeto é licenciado sob MIT License - ver [LICENSE](LICENSE) para detalhe
 
 ---
 
-## 📞 Suporte
+## 📞 Suporte e Contacto
 
-- 📧 Email: [teu-email]
-- 💬 Issues: [GitHub Issues]
-- 📖 Wiki: [GitHub Wiki]
+Para questões, sugestões ou reportar problemas:
+
+- 💬 **[GitHub Discussions](https://github.com/pesobreiro/llm_local_rgpd/discussions)** - Dúvidas gerais e partilha de experiências
+- 🐛 **[GitHub Issues](https://github.com/pesobreiro/llm_local_rgpd/issues)** - Reportar bugs ou solicitar funcionalidades
+- 🔒 **[Security Advisories](https://github.com/pesobreiro/llm_local_rgpd/security/advisories)** - Reportar vulnerabilidades de segurança de forma privada
+
+### Contribuir
+
+Contribuições são bem-vindas! Ver [guia de contribuição](./CONTRIBUTING.md) para mais detalhes.
 
 ---
 
