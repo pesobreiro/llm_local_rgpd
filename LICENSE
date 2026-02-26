@@ -1,0 +1,47 @@
+MIT License
+
+Copyright (c) 2025 [Nome do Autor]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+NOTA IMPORTANTE SOBRE MODELOS DE IA:
+
+Este projeto inclui configurações e scripts para utilizar modelos de linguagem
+de código aberto (Llama, Mistral, Qwen, etc.). Estes modelos têm as suas 
+próprias licenças que devem ser respeitadas:
+
+- Llama 3.x: Sujeito à Licença Llama 3 da Meta
+- Mistral: Apache 2.0 (a maioria dos modelos)
+- Qwen: Apache 2.0 ou Qwen License
+- Gemma: Gemma Terms of Use (Google)
+
+O utilizador é responsável por verificar e cumprir as licenças específicas
+de cada modelo que escolher utilizar.
+
+---
+
+AVISO LEGAL:
+
+Este software é fornecido apenas como ferramenta técnica para auxiliar na
+conformidade com o RGPD. Não constitui aconselhamento jurídico. Os utilizadores
+devem consultar um profissional qualificado em proteção de dados para
+garantir que a sua implementação específica cumpre todos os requisitos legais
+aplicáveis.

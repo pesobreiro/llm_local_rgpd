@@ -1,0 +1,92 @@
+# Ambiente Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Modelos e dados grandes (não fazer commit!)
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+models/downloaded/
+models/cache/
+*.ckpt
+
+# Dados sensíveis (nunca fazer commit!)
+*.csv
+*.xlsx
+*.pdf
+data/
+datasets/
+inputs/
+outputs/
+logs/
+*.log
+.env
+.env.local
+secrets/
+credentials/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Sistema
+*.tmp
+*.temp
+.cache/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Ollama specific (se alguém correr ollama dentro do repo)
+.ollama/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Test outputs
+tests/output/
+tests/__pycache__/
+.pytest_cache/
+
+# Documentação gerada
+docs/_build/
+site/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Configurações locais (podem conter paths específicos)
+config.local.yaml
+settings.local.json
